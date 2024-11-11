@@ -1,0 +1,45 @@
+---
+import Footer from "../components/Footer.astro";
+import { Image } from "astro:assets";
+import alfa from "../assets/images/alfa2.png";
+import Button from "../components/Button.astro";
+---
+
+<section class="relative bg-footer font-primary" id="shop">
+  <!-- <div
+    class="text-3xl leading-tight flex items-center justify-center md:text-4xl flex items-center justify-center pt-52"
+  >
+    <h2>A B C D E F G H I J K L M</h2>
+  </div>
+  <div
+    class="text-3xl leading-tight flex items-center justify-center md:text-4xl flex items-center justify-center pt-4"
+  >
+    <h2>N O P Q R S T U V W X</h2>
+  </div>
+  <div
+    class="text-3xl leading-tight flex items-center justify-center md:text-4xl flex items-center justify-center pt-4"
+  >
+    <h2>Y Z Æ E Å</h2>
+  </div> -->
+
+  <div
+    class="flex items-center justify-center md:text-4xl flex items-center justify-center pt-44 pb-24"
+  >
+    <Image src={alfa} alt="Vintage look of the whole typography-package" />
+  </div>
+  <div
+    class="flex items-center justify-center md:text-4xl flex items-center justify-center pb-96"
+  >
+    <Button>Shop Now</Button>
+  </div>
+  <Footer />
+</section>
+
+<style>
+  /* Ensure the image fills the section and is behind the header */
+  .bg-footer {
+    background-image: url("/footer.webp");
+    background-size: cover;
+    background-position: center;
+  }
+</style>
