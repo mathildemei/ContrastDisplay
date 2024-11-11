@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+import lady from "../assets/images/lady2.webp";
+---
+
+<section class="bg-beige">
+  <h2 class="font-primary text-3xl md:font-primary text-4xl py-20 px-16">
+    MADE FOR
+  </h2>
+  <h2 class="font-primary text-3xl pb-24 md:font-primary text-4xl px-48">
+    YOUR ENERGI
+  </h2>
+  <div class="absolute right-12 md:right-72">
+    <h2
+      class="font-primary text-3xl text-right pt-20 md:font-primary text-4xl px-48 text-right pt-80"
+    >
+      <span class="text-right">Your</span>
+      <br />
+      <span class="text-right">pleasure</span>
+    </h2>
+  </div>
+  <div class="flex items-end justify-end md:flex items-end justify-end">
+    <Image
+      src={lady}
+      alt="Woman with filled wine glasses in front of her eyes"
+    />
+  </div>
+</section>
