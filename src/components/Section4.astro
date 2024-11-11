@@ -1,13 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import contrast1 from "../assets/images/contrast1.png";
+import contrast1 from "../assets/images/contrast7.png";
 import contrast2 from "../assets/images/contrast2.png";
 import contrast3 from "../assets/images/contrast3.png";
 import contrast4 from "../assets/images/contrast4.png";
 import contrast5 from "../assets/images/contrast6.png";
 ---
 
-<section class="bg-beige">
+<section class="bg-beige pt-32">
   <div class="overflow-clip">
     <section id="horisontalscrollsection" class="h-[500vw]">
       <ul id="horisontalliste" class="list-none pl-0 flex sticky top-[10vh]">
@@ -57,7 +57,7 @@ import contrast5 from "../assets/images/contrast6.png";
 
   scroll(
     animate("#horisontalliste", {
-      transform: ["none", "translateX(-100vw)"],
+      transform: ["none", "translateX(-150vw)"],
     }),
     { target: document.querySelector("#horisontalscrollsection") }
   );
