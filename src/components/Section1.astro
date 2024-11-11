@@ -1,0 +1,33 @@
+---
+import Header from "../components/Header.astro";
+---
+
+<section class="relative bg-hero h-screen">
+  <Header />
+
+  <article class="">
+    <div>
+      <h1
+        class="font-primary text-6xl flex items-center justify-center text-center pt-72 md:text-8xl text-beige tracking-wide flex items-center justify-center text-center"
+      >
+        Contrast Display
+      </h1>
+    </div>
+    <div>
+      <p
+        class="font-secondary text-xl text-beige pt-4 flex items-center justify-center text-center md:text-2xl text-beige flex items-center justify-center text-center"
+      >
+        Stay sharp
+      </p>
+    </div>
+  </article>
+</section>
+
+<style>
+  /* Ensure the image fills the section and is behind the header */
+  .bg-hero {
+    background-image: url("/heroimg.webp");
+    background-size: cover;
+    background-position: center;
+  }
+</style>
