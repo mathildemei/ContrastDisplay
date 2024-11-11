@@ -2,7 +2,17 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+            fontFamily: {
+                primary: ["Contrast"], // Definer primær skrifttype
+                secondary: ["Inter", "sans-serif"], // Definer sekundær skrifttype
+              },
+            colors: {
+                white: "#ffffff",
+                black: "#000000",
+                "beige": "#F3F1E6",
+              },
+        },
 	},
 	plugins: [
         require('@tailwindcss/typography'),
