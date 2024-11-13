@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
             fontFamily: {
-                primary: ["Contrast"], // Definer primær skrifttype
+                primary: ["ContrastDisplay"], // Definer primær skrifttype
                 secondary: ["Inter", "sans-serif"], // Definer sekundær skrifttype
               },
             colors: {

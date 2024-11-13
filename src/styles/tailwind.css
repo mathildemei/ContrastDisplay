@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {}
 
+@font-face {
+    font-family: 'ContrastDisplay';
+    src: url('/contrast-regular-webfont.woff2') format('woff2');
 }
